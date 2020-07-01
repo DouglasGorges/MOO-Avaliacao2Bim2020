@@ -15,6 +15,22 @@ import java.util.List;
 public class Sistema {
     public static void main(String[] args) {
 
+        System.out.println("*****************************************");
+        System.out.println("** Bem-Vindo ao Sistema de Agendamento **");
+        System.out.println("*****************************************");
+        System.out.println("");
+        System.out.println("O que voce deseja fazer:");
+        System.out.println("1 - Login no Sistema");
+        System.out.println("2 - Cadastrar novo medico");
+        System.out.println("3 - Cadastrat novo atendente");
+        System.out.println("4 - Cadastrar novo usuario");
+        
+
+        System.out.println("Por favor, digite seu login: ");
+        //TODO Capturar o login
+
+
+
         List<Equipamento> listaEquipamentos = new ArrayList<>();
         Equipamento equipamento1 = new Equipamento();
         equipamento1.setNome("Estetoscopio");
